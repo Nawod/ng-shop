@@ -1,0 +1,44 @@
+<div class="card-top container-fluid">
+    <div class="container d-flex">
+        <div class="item">
+            <a>
+                <img src="https://www.nicepng.com/png/full/198-1985379_blue-icon-positive-impact-products-cube-icon.png" style="width: 55px;" alt="">
+                <h6>All Product</h6>
+            </a>
+        </div>
+        <div class="item">
+            <a>
+                <img src="https://static.vecteezy.com/system/resources/previews/002/568/097/non_2x/laptop-computer-flat-style-icon-free-vector.jpg" alt="">
+                <h6>Electronic</h6>
+            </a>
+        </div>
+        <div class="item">
+            <a>
+                <img src="https://cdn4.iconfinder.com/data/icons/recharge-utilities/48/fashion-512.png" alt="">
+                <h6>Fashion</h6>
+            </a>
+        </div>
+        <div class="item">
+            <a>
+                <img src="https://icon-library.com/images/necklace-icon/necklace-icon-1.jpg" alt="">
+                <h6>Jewellery</h6>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="cards row">
+        <ng-container *ngFor="let item of productList">
+            <div class="card col-md-3">
+                <div class="cardImg">
+                    <img src="{{item.image}}" alt="">
+                </div>
+                <h5 style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 100ch;">{{item.title}}</h5>
+                <p style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 100ch;">{{item.description}}</p>
+                <p><strong>Price: </strong>${{item.price}}</p>
+                <button class="btn btn-primary" (click)=addtocart(item)>Add to cart</button>
+            </div>
+        </ng-container>       
+    </div>
+</div>
