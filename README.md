@@ -2,7 +2,7 @@
 
 An e-commerce web application with add to cart function. Made with Angular.
 
-![]('./src/assests/prev.png')
+![] ('./src/assests/prev.png')
 
 ## Development server
 
