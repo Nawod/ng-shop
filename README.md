@@ -2,7 +2,7 @@
 
 An e-commerce web application with add to cart function. Made with Angular.
 
-![]('https://github.com/Nawod/ng-shop/blob/master/prev.png')
+![](prev.png)
 
 ## Technologies used
 
