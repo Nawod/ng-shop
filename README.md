@@ -1,18 +1,14 @@
-# NgShop
-
 # NG Shop
 
 An e-commerce web application with add to cart function. Made with Angular.
 
-![]('./src/assets/prev.png')
-
+![]('prev.png')
 
 ## Technologies used
 
 - Angular
 - Typescripts
 - fakestore-api
-
 
 ## Development server
 
